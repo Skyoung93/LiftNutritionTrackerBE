@@ -6,7 +6,7 @@ Common Helper Functions
 // date is in unix ms
 const convertDate = (date) => {
     date = new Date(date);
-    let month = date.getMonth();
+    let month = date.getMonth() + 1;
     let calDay = date.getDate();
     let year = date.getFullYear();
     return `${year}-${month}-${calDay}`
