@@ -12,7 +12,7 @@ GET /foods/names
 GET /foods/date/:date
   - returns all entries on the day given
   - params:
-    - unix ms time (int)
+     - unix ms time (int) or 'YYYY-MM-DD' Str Format
 PUT /foods
   - updates entry based on id
   - body:
@@ -45,7 +45,7 @@ GET /lifts/names
 GET /lifts/date/:date
   - returns all entries on the day given
    - params:
-     - unix ms time (int)
+     - unix ms time (int) or 'YYYY-MM-DD' Str Format
 PUT /lifts
   - updates entry based on id
   - body:
