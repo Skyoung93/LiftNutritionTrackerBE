@@ -1,0 +1,33 @@
+{
+  "name": "liftnutritiontrackerbe",
+  "version": "1.0.0",
+  "description": "'Back End Support for the FE of the nutrtion and lifting tracker'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skyoung93/LiftNutritionTrackerBE.git"
+  },
+  "keywords": [
+    "lifting",
+    "nutrition",
+    "tracker"
+  ],
+  "author": "Sean K Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skyoung93/LiftNutritionTrackerBE/issues"
+  },
+  "homepage": "https://github.com/Skyoung93/LiftNutritionTrackerBE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  }
+}
