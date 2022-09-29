@@ -1,5 +1,4 @@
-# LiftNutrtionTrackerBE
-<h1 align="center">Questions & Answers</h1>
+<h1 align="center">LiftNutrtionTrackerBE</h1>
 
 ## Links
 
