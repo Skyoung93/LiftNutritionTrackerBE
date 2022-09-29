@@ -51,7 +51,7 @@ let createTables = async () => {
       exercise VARCHAR(100),
       weight INT,
       set INT,
-      rep INT,
+      reps INT,
       rating INT,
       notes TEXT
     );`

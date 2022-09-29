@@ -20,11 +20,13 @@ app.get('/foods/names', controllers.getFoodsNames);
 app.get('/foods/date/:date', controllers.getFoodsDate);
 app.put('/foods', controllers.putFoods);
 app.post('/foods', controllers.postFoods);
+app.delete('/foods/:id', controllers.deleteFoods);
 
 app.get('/lifts/names', controllers.getLiftsNames);
 app.get('/lifts/date/:date', controllers.getLiftsDate);
 app.put('/lifts', controllers.putLifts);
 app.post('/lifts', controllers.postLifts);
+app.delete('/lifts/:id', controllers.deleteLifts);
 
 
 
